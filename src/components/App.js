@@ -3,7 +3,7 @@ import '../styles/App.css';
 
 const App = () => {
   
-  const handleClick = (event) =>{
+  const handleClick = (event) => {
     console.log('Button id is:-'+event.target.id);
   }
   
@@ -14,6 +14,5 @@ const App = () => {
     </div>
   )
 }
-
 
 export default App;
